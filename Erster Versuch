@@ -12,7 +12,7 @@
       <a href="/kontakt.html">Kontakt</a>
       <a target="_blank" href="https://www.techstarter.de">Techstarter</a>
     </nav>
-    <img src="https://avatars.githubusercontent.com/u/130968021?v=4" width="200px" alt="Profilbild">
+    <img src="https://avatars.githubusercontent.com/u/130968021?v=4" width="200" alt="Profilbild">
   </header>
   <main>
     <h1>Herzlich willkommen auf meiner Portfolio-Website</h1>
@@ -40,3 +40,4 @@
   </footer>
 </body>
 </html>
+
