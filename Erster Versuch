@@ -35,6 +35,8 @@
       <li><a target="_blank" href="https://github.com/AndreasKort">Github Profil</a></li>
     </ol>
   </main>
-  <footer>Impressum | Kontakt</footer>
+  <footer>
+    Impressum | Kontakt: <a href="mailto:andreas.kort@docc.techstarter.de">andreas.kort@docc.techstarter.de</a>
+  </footer>
 </body>
 </html>
