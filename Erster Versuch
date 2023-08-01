@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Meine erste Portfolio-Website</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/index.html">Startseite</a>
+      <a href="/lebenslauf.html">Lebenslauf</a>
+      <a href="/kontakt.html">Kontakt</a>
+      <a target="_blank" href="https://www.techstarter.de">Techstarter</a>
+    </nav>
+    <img src="https://avatars.githubusercontent.com/u/130968021?v=4" width="200px" alt="Profilbild">
+  </header>
+  <main>
+    <h1>Herzlich willkommen auf meiner Portfolio-Website</h1>
+    <h2>Mein Werdegang</h2>
+    <ol>
+      <li>Der erste Eintrag</li>
+      <li>Der zweite Eintrag</li>
+      <li>Der dritte Eintrag</li>
+    </ol>
+    <h2>Meine Skills</h2>
+    <ul>
+      <li>Python</li>
+      <li>Bash</li>
+      <li>AWS Cloud Practitioner</li>
+    </ul>
+    <h2>Meine Projekte</h2>
+    <ol>
+      <li>Projekt #1</li>
+      <li>Projekt #2</li>
+      <li><a target="_blank" href="https://github.com/AndreasKort">Github Profil</a></li>
+    </ol>
+  </main>
+  <footer>Impressum | Kontakt</footer>
+</body>
+</html>
