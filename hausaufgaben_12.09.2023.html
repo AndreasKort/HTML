@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Farbige Überschrift</title>
+  </head>
+  <body>
+    <h1 id="ueberschrift">Welche Farbe willst du schu unten </h1>
+    <select id="farbauswahl">
+      <option value="black">Schwarz</option>
+      <option value="red">Rot</option>
+      <option value="blue">Blau</option>
+      <option value="green">Grün</option>
+      <!-- Weitere Farben können hier hinzugefügt werden -->
+    </select>
+    <button onclick="farbeAendern()">OK</button>
+
+    <script>
+      function farbeAendern() {
+        var farbauswahl = document.getElementById("farbauswahl");
+        var farbe = farbauswahl.options[farbauswahl.selectedIndex].value;
+        document.getElementById("ueberschrift").setAttribute("style", "color: " + farbe);
+      }
+    </script>
+  </body>
+</html>
